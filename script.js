@@ -35,6 +35,7 @@ selectmenu();
 
 //function for age calculation
 function age_calculation(){
+  var n;
   var birth_year = prompt("Enter your birth year: ")
   var birth_month = prompt("Enter your birth month: ")
   var birth_day = prompt("Enter your birth date: ")
@@ -43,16 +44,35 @@ function age_calculation(){
   today_month = today_date.getMonth();
   today_day = today_date.getDate();
   age = today_year - birth_year;
-  if ( today_month < (birth_month - 1))
-    {
-      age--;
+  if (birth_year<today_year){
+    if (birth_month<=12 && birth_month>=1){
+      if (birth_day>=1 && birth_day<=31){
+        if ( today_month < (birth_month - 1))
+        {
+          age--;
+        }
+        if (((birth_month - 1) == today_month) && (today_day < birth_day))
+        {
+          age--;
+        }
+        return "Your age is "+ age +" remember age is just a number :-)";
+      }
+      else{
+        n = "Enter valid date"
+        return n;
+      }
     }
-  if (((birth_month - 1) == today_month) && (today_day < birth_day))
-    {
-      age--;
+    else{
+      n = "Enter valid month"
+      return n;
     }
-  return age;
   }
+  else{
+    n = "Enter valid year"
+    return n;
+  }
+}
+
   
 //function for printing a joke
 function cracking_joke(){
@@ -67,7 +87,7 @@ function myFunction() {
   switch(fav) {
     case "2":
       var age = age_calculation();
-      text = "Your age is "+ age +" remember age is just a number :-)";
+      text = age;
       break;
     case "1":
       text = suggestions();

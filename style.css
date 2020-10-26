@@ -1,1 +1,44 @@
-
+body { 
+  border: 3px solid black;
+  padding: 10%;
+  align-content: center;
+	color: black; 
+	font-weight: bold; 
+	font-size: 20px; 
+	font-family: "Courier New"; 
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkld0f56BnTkwewL7upQtYV-ukHRtb4Yh3Mw&usqp=CAU');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+  text-align: center;
+}
+button{
+  font-size: 20px;
+  color: black;
+  padding: 5%;
+  text-align: center;
+  fill:grey;
+}
+#bot{
+    border: 3px solid black;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/26211230/thumb/1.jpg');
+    background-size: cover;
+    background-position: center;
+    position :relative;
+    z-index: 1;
+    padding: 10%;
+}
+#bot::after{
+    position: absolute;
+    width: 200%; 
+    height: 200%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#bot h1{
+    
+    font-size: 2rem;
+    position: left;
+    color: white;
+}

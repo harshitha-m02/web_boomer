@@ -4,7 +4,7 @@ Boomer is a chatbot created to know the needs of students especially about the c
 	1. Suggest the course    
     	2. Calculate the age     
     	3. Crack a joke     
-So, to suggest a course, the bot needs some requirements like 12th pass grades and then the stream they want to opt.   
+So, to suggest a course, the bot needs some requirements like 12th pass grades and then the stream they opted.   
 The other operation calculates the age when the user has to mention birth date, month and year.  
 It cracks a joke when the user asks to do that operation  
 The front-end appliation has been developed on this code using HTML,CSS and Java script.
@@ -23,6 +23,8 @@ https://darkmagentadarkexponent.harshitha02.repl.co/
 # Collaborators
 
 Sumanjali.K - 19pa1a0478
+
 Harshitha.M - 19pa1a0492
+
 Mahitha.V - 19pa1a0495
 

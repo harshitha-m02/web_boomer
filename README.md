@@ -22,7 +22,7 @@ https://darkmagentadarkexponent.harshitha02.repl.co/
 
 # Collaborators
 
-Sumanjali.K - 19pa1a0478
-Harshitha.M - 19pa1a0492
-Mahitha.V - 19pa1a0495
+Sumanjali.K - 19pa1a0478.
+Harshitha.M - 19pa1a0492.
+Mahitha.V - 19pa1a0495.
 
